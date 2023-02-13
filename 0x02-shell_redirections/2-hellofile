@@ -1,2 +1,2 @@
 #!/bin/bash
-car /erc/passwd
+car /etc/passwd
