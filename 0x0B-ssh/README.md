@@ -1,16 +1,15 @@
-# SSH
-Project done during **Full Stack Software Engineering** at **ALX**. It aims to learn about what is a SSH, how to create an SSH RSA key pair and how to connect to a remote host using SSH.
+# `SSH`
+SSH (Secure Shell) is a secure network protocol used for remote access and management of network devices, servers, and computers over an unsecured network, such as the Internet
+# Resources
+# A Simple SSH Illustration
+![](https://assets.website-files.com/5ff66329429d880392f6cba2/61c1b963247368113bbeef17_Secure%20Shell%20work.png)
 
-## Technologies
-* Scripts written in Bash 4
-* Tested on Ubuntu 20.04 LTS
-* Puppet 
 
-## Files
-
-| Filename | Description |
-| -------- | ----------- |
-| `0-use_a_private_key` | Uses `ssh` to connect to a server using a private key previously generated |
-| `1-create_ssh_key_pair` | Creates an RSA key pair |
-| `2-ssh_config` | SSH client configuration using a private key and refusing to authenticate using a password |
-| `4-puppet_ssh_config.pp` | Sets up the client SSH configuration file to connect to a server without typing a password |
+# Learning Objectives
+## General
+- What is a server
+- Where servers usually live
+- What is SSH
+- How to create an SSH RSA key pair
+- How to connect to a remote host using an SSH RSA key pair
+- The advantage of using #!/usr/bin/env bash instead of /bin/bash
